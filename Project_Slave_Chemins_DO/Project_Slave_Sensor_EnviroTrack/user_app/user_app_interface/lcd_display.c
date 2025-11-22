@@ -644,7 +644,7 @@ void Display_Show_State_Sensor_Network (uint8_t screen)
         else
         {
 //            glcd_tiny_draw_string(120, sLCDObject[__SC1_PH_ATC].Row_u8, "N");
-            glcd_tiny_draw_string(120, sLCDObject[__SC1_DO_PER].Row_u8, " ");
+            glcd_tiny_draw_string(120, sLCDObject[__SC1_DO_PER].Row_u8, "N");
             glcd_tiny_draw_string(120, sLCDObject[__SC1_TEMP].Row_u8, "N");
         }
     }
